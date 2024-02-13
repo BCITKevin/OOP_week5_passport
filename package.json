@@ -1,0 +1,36 @@
+{
+  "name": "passportdemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express-ejs-layouts": "^2.5.0",
+    "@types/passport": "^1.0.11",
+    "@types/passport-github2": "^1.2.5",
+    "@types/passport-local": "^1.0.35",
+    "connect-redis": "^7.1.1",
+    "dotenv": "^16.4.1",
+    "ejs": "^3.1.6",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.0",
+    "express-layouts": "^1.0.0",
+    "express-session": "^1.18.0",
+    "memorystore": "^1.6.7",
+    "passport": "^0.4.1",
+    "passport-github2": "^0.1.12",
+    "passport-local": "^1.0.0",
+    "passport-oauth2": "^1.8.0",
+    "redis": "^4.6.13"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.16",
+    "@types/express-session": "^1.17.10",
+    "@types/node": "^18.11.18"
+  },
+  "description": ""
+}

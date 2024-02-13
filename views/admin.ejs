@@ -1,0 +1,16 @@
+<h1 class="mt-4">Dashboard</h1>
+<p class="lead mb-3">Welcome <%= userInfo.name %></p>
+<br>
+<p>Current Active Sessions:</p>
+<p> SessionID:
+    <ul>
+        <% userData.forEach(element => { %>
+        <li><a href="/dashboard/revoke/<%= element.sessionId %>"><%= element.sessionId %></a></li> <br>
+        <% }); %>
+    </ul>
+<p>UserID: 
+    <ul>
+        <% userData.forEach(element => { %>
+            <li><%= element.userId %></li> <br>
+        <% }); %>
+    </ul>
